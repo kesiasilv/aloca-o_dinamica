@@ -3,6 +3,7 @@
 /*a funçõa calloc serve para alocar memória durante a execução
 do programa. Ela faz pedido de memória ao computador e retorna 
 um ponteiro com o endereço do inicio do escopo de memória alocado*/
+//a diferença de malloc para calloc é que calloc inicializa todos os bits do espaço alocado com 0's
 //protótipo:
 //void* calloc(unsigned int num, unsigned int size)
 int main(){
